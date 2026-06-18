@@ -1,0 +1,103 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Resume Container */
+.resume {
+    max-width: 900px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #2c3e50;
+    font-size: 36px;
+}
+
+header p {
+    color: #666;
+    font-size: 16px;
+}
+
+/* Section Styling */
+section {
+    margin-top: 25px;
+}
+
+section h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Education, Skills, Projects */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Skills */
+.skills span {
+    display: inline-block;
+    background: #3498db;
+    color: white;
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* Project Cards */
+.project {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-top: 10px;
+    border-left: 4px solid #3498db;
+    border-radius: 5px;
+}
+
+/* Contact Links */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .resume {
+        margin: 10px;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+}
